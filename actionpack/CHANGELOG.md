@@ -1,3 +1,10 @@
+*   Refactor handling of `:action` default in routing so that the request's
+    `path_parameters` is not mutated when generating a route.
+
+    Fixes #23019.
+
+    *Andrew White*
+
 *   Provide the name of HTTP Status code in assertions.
 
     *Sean Collins*
